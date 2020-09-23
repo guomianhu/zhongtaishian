@@ -1,0 +1,260 @@
+//产品价格
+.service-table{
+  .ivu-table th{
+    text-align: center!important;
+  }
+  .ivu-table-tbody tr td:first-child{
+    text-align: left;
+  }
+  .ivu-table-tbody tr td:not(first-child){
+    text-align: center;
+  }
+}
+.contact-message{
+  .ivu-form-item{
+    margin-bottom: 10px;
+    .ivu-form-item-content{
+      margin-left: 0!important;
+      margin-right: 10px;
+      border-radius: 2px;
+      background: #eff6ff;
+      color: #53626f;
+      height: 45px;
+      line-height: 45px;
+      .ivu-input{
+        background-color: #eff6ff;
+        border: none;
+        padding-left: 10px;
+        outline: none;
+        &:focus{
+          outline:0;
+        }
+      }
+    }
+  }
+}
+
+//登录
+.login-wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  .ivu-btn {
+    height: 38px;
+    font-size: 16px;
+  }
+  .home-banner .ivu-carousel-list .ivu-carousel-item {
+    width: 100%;
+  }
+  .ivu-form-item-error-tip {
+    padding-top: 5px;
+  }
+  .ivu-tabs-nav .ivu-tabs-tab {
+    font-size: 18px;
+  }
+  .ivu-tabs-nav {
+    text-align: center;
+  }
+  .ivu-tabs-bar{
+    margin-bottom: 35px;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0;
+  }
+  input{
+    height: 36px;
+  }
+  .center-horizon{
+    display: flex;
+    justify-content: center;
+  }
+  .ivu-form-inline .ivu-form-item{
+    display: block;
+    margin-bottom: 22px;
+  }
+  .ivu-btn-primary:first-child{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 24px;
+  }
+  .ivu-input-group-prepend{
+    font-size: 16px;
+    color: #999999;
+    background-color: #ffffff;
+  }
+  .ivu-form-item-error-tip{
+    font-size: 12px;
+  }
+  .ivu-tabs{
+    width: 320px;
+  }
+  .ivu-form-item-content{
+    display: flex;
+  }
+  .ivu-form-item-error .ivu-input{
+    border:1px solid #dcdee2;
+    color: #5794ff;
+  }
+  .ivu-form-item-error .ivu-input-group-prepend{
+    border:1px solid #dcdee2;
+  }
+  .send-yzm{
+    width: 38%;
+    margin-left: 5px;
+    background: no-repeat;
+    border: 1px solid #dcdee2;
+    border-radius: 4px;
+    color: #5794ff;
+    line-height: 35px;
+  }
+  .nav-header{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+    padding: 0 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .login-form label{
+    font-size: 20px;
+  }
+}
+.ivu-input[type="button"]{
+  cursor: pointer;
+}
+.login-page {
+  .login-main{
+    max-width: 1000px;
+    background-color: #ffffff;
+    margin: 55px auto 0 auto;
+    box-shadow: 0 0 35px #cbd1f3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .login-form{
+    background-color: #fff;
+    border-radius: 0 5px 5px 0;
+    padding: 50px 50px 10px 50px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.login-img img{
+  border-radius: 5px 0 0 5px;
+  width: 100%;
+  float: left;
+}
+/*首页*/
+.home-page {
+  .ivu-carousel-dots-inside{
+    bottom: 25px;
+  }
+  .ivu-tabs-nav .ivu-tabs-tab{
+    display: block;
+    background: #ffffff;
+    box-shadow: 2px 2px 4px #5f6dc04d;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 3px 15px;
+    font-size: 16px;
+    &:hover{
+      background-color: #2d8cf0;
+      color: #ffffff;
+    }
+  }
+  .ivu-tabs-bar{
+    border-bottom: none;
+    position: absolute;
+    top: 70px;
+    right: 1px;
+    z-index: 999;
+  }
+  .ivu-tabs-ink-bar{
+    display: none;
+  }
+  .ivu-tabs-nav{
+    float: right;
+  }
+  .ivu-tabs-nav .ivu-tabs-tab-active{
+    background-color: #2d8cf0;
+    color: #ffffff;
+    &:hover{
+      color: #ffffff;
+    }
+  }
+  .ivu-tabs{
+    position: relative;
+  }
+}
+@media (max-width: 768px){
+  .product-wrapper {
+    .pro-item{
+      margin-top: 50px;
+      padding: 20px 55px 15px 50px
+    }
+    .ivu-tabs-nav{
+      float: left;
+    }
+    .view-container{
+      background-color: #ffffff;
+      padding: 0 15px 40px 10px;
+
+    }
+    .ivu-tabs-nav .ivu-tabs-tab{
+      display: inline-block;
+      background: none;
+      color: #2d8cf0;
+      box-shadow: 2px 2px 4px #5f6dc04d;
+      border-radius: 20px;
+      font-size: 14px;
+      border: 1px solid #2d8cf0;
+      margin-right: 10px;
+    }
+    .ivu-tabs-nav .ivu-tabs-tab-active{
+      background-color: #2d8cf0;
+      color: #ffffff;
+      border: none;
+    }
+    .ivu-tabs .ivu-tabs-bar {
+      top: 1px;
+      left: 20px;
+    }
+  }
+}
+@media (max-width: 1080px){
+  .main-wrapper{
+    width: auto!important;
+  }
+  .pro-advantage{
+    .main-wrapper{
+      padding: 80px 35px;
+    }
+    .pub-title{
+      margin-bottom: 40px;
+    }
+  }
+  .product-wrapper {
+    .pub-title{
+      margin-bottom: 20px;
+      p{
+        margin: 5px;
+      }
+    }
+    .pro-item{
+      margin: 30px 0 0 0;
+    }
+    .ivu-tabs-nav .ivu-tabs-tab {
+      display: inline-block;
+    }
+    .ivu-tabs .ivu-tabs-bar {
+      top: 10px;
+      left: 30px;
+    }
+    .ivu-tabs-nav{
+      float: left;
+    }
+  }
+}
